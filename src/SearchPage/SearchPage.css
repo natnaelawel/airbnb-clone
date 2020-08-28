@@ -1,0 +1,47 @@
+.searchPage {
+    display: flex;
+    width: 100vw;
+    padding: 10px 40px;
+    /* position: relative; */
+}
+
+.searchPage__left {
+    flex:0.6;
+}
+.searchPage__info > p{
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+.searchPage__info > h1{
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: rgba(0,0,0,0.8);
+}
+.searchPage__button{
+    margin-right: 10px !important;
+    border-radius: 30px !important;
+    padding: 5px 10px !important;
+    
+}
+
+.searchPage__right {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: sticky;
+    flex: 0.4;
+    height: 100vh;
+    background-color: #cccccc;
+    background-image: url("https://gisgeography.com/wp-content/uploads/2019/06/how-to-map-qgis-feature-1.png");
+}
+
+@media(max-width: 700px){
+    .searchPage__right{
+        display: none;
+    }
+    .searchPage__left{
+        width: 100vw;
+    }
+}
+

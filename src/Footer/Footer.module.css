@@ -1,0 +1,33 @@
+.footer{
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left{
+    flex: 1;
+}
+.footer__right{
+    display: flex;
+    font-weight: 900 !important;  
+    font-size: 16px !important;
+}
+.footer__langLink{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+.footer__usd{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8) !important;
+    
+}
+.footer__socialIcons{
+    display: flex;
+    margin: 0 20px;
+}
+
+.footer__socialIcons__icons{
+    /* padding: 10px; */
+    margin: 0 10px;
+    font-size: 25px !important;
+}
